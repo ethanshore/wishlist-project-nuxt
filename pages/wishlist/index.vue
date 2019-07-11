@@ -1,11 +1,12 @@
 <!-- Page which displays the wishlisted products-->
 <template lang="pug">
   .wishlist-page
-    .wishlist-page-text.mt-3.mb-5.text-center
+    .wishlist-page-text.mb-5.text-center
       h1 Wishlist
       h5(v-if="!Array.isArray(wishList) || !wishList.length") Wishlist is empty. &nbsp;
         nuxt-link(to="/") Go add products!
-      h5(v-else) Click buttons to remove products from wishlist.
+      h5(v-else) Click buttons to remove products from wishlist. &nbsp;
+        nuxt-link(to="/") Or add more products!
     .wishlist-page-products
       b-container
         b-row

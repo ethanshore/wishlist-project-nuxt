@@ -3,7 +3,7 @@ component to display them on the screen
 -->
 <template lang="pug">
   .home
-    .home-text.mt-3.mb-5.text-center
+    .home-text.mb-5.text-center
       h1 Products
       h5 Click on buttons to add products to your wishlist. &nbsp;
         nuxt-link(to="/wishlist") Then view your wishlist!
@@ -42,7 +42,6 @@ export default {
 
 <style lang="scss" scoped>
   .home {
-    height: 100%;
     min-height: stretch;
     width: 100%;
     background-color: lightgray;
