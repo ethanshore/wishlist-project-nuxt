@@ -46,6 +46,6 @@ export default {
     margin: auto;
     height: 24px;
     width: 24px;
-    background-color: black;
+    background-color: grey;
   }
 </style>
